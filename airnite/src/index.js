@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+// import '../node_modules/daisyui/dist/themes.css';
+// import '../node_modules/daisyui/dist/full.css';
+// import '../node_modules/daisyui/dist/styled.css';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

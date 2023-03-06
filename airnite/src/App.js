@@ -6,7 +6,7 @@ import NavBar from './Components/Common/NavBar';
 import DisplayProperties from './Components/Pages/DisplayImages';
 import Admin from './Components/Pages/Admin';
 import Home from './Components/Pages/Home';
-import CardDetails from './Components/Pages/CardDetails';
+import CardDetails1 from './Components/Pages/CardDetails1';
 import Card from './Components/Common/Card';
 import Footer from './Components/Common/Footer';
 
@@ -26,7 +26,7 @@ function App() {
   const filteredSearch = data.filter((property)=>{
     if(property.city.toLowerCase()==search){
       return property
-    }else if(search= ""){
+    }else if(search == ""){
       return false
     } 
   })
@@ -50,7 +50,7 @@ function handleClick(id){
       <Route path="/home" element={<Home handleClick={handleClick} searchData={sdata} handleInput={handleInput} />} />
       <Route path="/properties" element={<DisplayProperties handleClick={handleClick} propertyData={data}/>} />
       <Route path="/add" element={<Admin/>}/>
-      <Route path="/properties/:id" element={<CardDetails/>}/>
+      <Route path="/properties/:id" element={<CardDetails1/>}/>
       </Routes>
       <Footer/>
     </div>

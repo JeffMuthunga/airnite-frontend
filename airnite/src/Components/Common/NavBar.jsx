@@ -10,7 +10,7 @@ function NavBar (){
         <div className="navbar">
             <NavLink className="nav-branding" to="/home">
                 <img src="./Images/axis.png" alt="" width={10} height={40}/>
-                Oppenheimer LLC</NavLink>
+                Airnite LLC</NavLink>
             <ul className="nav-menu">
                 <li className="nav-link"><NavLink  to="/home"> Home</NavLink ></li>
                 <li className="nav-link"><NavLink  to="/properties">Properties</NavLink ></li>
